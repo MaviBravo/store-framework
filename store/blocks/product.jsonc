@@ -31,7 +31,7 @@
       "verticalAlign": "middle",
       "preventVerticalStretch": true
     }
-  },
+  ,
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
