@@ -35,7 +35,7 @@
       "shipping-simulator"
     ],
     "props": {
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "preventVerticalStretch": true
     }
   },
