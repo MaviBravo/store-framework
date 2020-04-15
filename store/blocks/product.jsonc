@@ -26,18 +26,18 @@
       "product-price",
       "flex-layout.row#qty-sku",
       "buy-button"
-    ]
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    }
   },
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity",
       "shipping-simulator"
-    ],
-    "props": {
-      "verticalAlign": "top",
-      "preventVerticalStretch": true
-    }
+    ]
   },
   "product-price": {
     "props": {
