@@ -14,7 +14,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 2, 
+        "categoryId": 1497, 
         "text": "Small Appliances"
       }
     }
@@ -25,7 +25,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 3, 
+        "categoryId": 1548, 
         "text": "Electronics"
       }
     }
@@ -36,7 +36,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 4, 
+        "categoryId": 1494, 
         "text": "Refrigerators"
       }
     }
@@ -47,7 +47,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 5, 
+        "categoryId": 1563, 
         "text": "Ranges & Ovens"
       }
     }
@@ -58,7 +58,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 6, 
+        "categoryId": 1563, 
         "text": "Washers & Dryers"
       }
     }
@@ -69,7 +69,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 7, 
+        "categoryId": 1563, 
         "text": "Mixers & Blenders"
       }
     }
@@ -80,7 +80,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 8, 
+        "categoryId": 1563, 
         "text": "Toasters & Grills"
       }
     }
@@ -91,7 +91,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 9, 
+        "categoryId": 1563, 
         "text": "Coffee Makers"
       }
     }
@@ -102,7 +102,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 10, 
+        "categoryId": 1563, 
         "text": "TVs"
       }
     }
@@ -113,7 +113,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 11, 
+        "categoryId": 1563, 
         "text": "Laptops"
       }
     }
@@ -124,9 +124,20 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 12, 
+        "categoryId": 1563, 
         "text": "Cameras"
       }
     }
-  }
+  },
+    "vtex.menu@2.x:menu#categories": {
+      "children": [
+        "menu-item#major-appliances",
+        "menu-item#small-appliances",
+        "menu-item#electronics"
+      ],
+   
+      "props":{
+        "orientation": "horizontal"
+      }
+   }
 }
